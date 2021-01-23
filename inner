@@ -39,8 +39,6 @@
                     <label for="filter-wi-fi">Wi-fi</label>
                 </li>
             </ul>
-        </form>
-        <form method="get" action="https://echo.htmlacademy.ru">
             <legend>Тип жилья:</legend>
             <ul>
                 <li>
