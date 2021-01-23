@@ -23,6 +23,40 @@
     </header>
     <main>
     	<h2>Поиск гостиниц</h2>
+        <form method="get" action="https://echo.htmlacademy.ru">
+            <legend>Инфрастуктура:</legend>
+            <ul>
+                <li>
+                    <input type="checkbox" name="whaterpool" id="filter-whaterpool" checked>
+                    <label for="filter-whaterpool">Бассеин</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="parking" id="filter-parking">
+                    <label for="filter-parking">Парковка</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="wi-fi" id="filter-wi-fi">
+                    <label for="filter-wi-fi">Wi-fi</label>
+                </li>
+            </ul>
+        </form>
+        <form method="get" action="https://echo.htmlacademy.ru">
+            <legend>Тип жилья:</legend>
+            <ul>
+                <li>
+                    <input type="checkbox" name="hostel" id="filter-hostel" checked>
+                    <label for="filter-hostel">Гостиница</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="motel" id="filter-motel">
+                    <label for="filter-motel">Мотель</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="apartment" id="filter-apartment">
+                    <label for="filter-apartment">Апартаменты</label>
+                </li>
+            </ul>
+        </form>
     	<ul>
     		<li>
     			<img src="https://via.placeholder.com/150x100" alt="Фото гостиницы">
